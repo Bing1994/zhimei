@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<link href="css/style.css" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<script>
+	(function(win,doc){
+		function change(){
+			doc.documentElement.style.fontSize=doc.documentElement.clientWidth/375*20+'px';
+		}		
+		change();
+		win.addEventListener('resize',change,false);
+	})(window,document);
+</script>
+<style>
+	.qg{
+	width: 17.95rem;
+	height: 13.175rem;
+	background: #fff;
+	border-radius: 0.2rem;
+}
+.qg .cont{
+	width:17.95rem; 
+	margin-left: 0.5rem;
+}
+.qg ul{
+        width:100%;
+        box-sizing:border-box;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap;
+}
+.qg li{
+	width: 6.05rem;
+	margin-right:0.3rem;
+	position:relative;
+    display:inline-block;
+}
+.qg li img{
+	border-radius:0.2rem;
+	width:6.05rem;
+	height:6.05rem;
+	margin-bottom: 0.2rem;
+}
+.qg li p{
+	font-size:0.5rem;
+	color:#4a4a4a;
+	letter-spacing:0rem;
+	line-height:0.625rem;
+	height:1.25rem;
+	width: 6.05rem;
+	white-space:normal;
+}
+.qg li .time{
+	width: 4.5rem;
+	height: 1.175rem;
+	border:0.025rem solid #d7b359;
+	border-radius:0.2rem;
+	margin:0.5rem auto 0rem;
+	
+}
+.qg .time dd{
+	width: 1.45rem;
+	height: 100%;
+	float: left;
+	border-left:0.025rem solid #d7b359;
+	text-align: center;
+	line-height: 1.175rem;
+	margin-right:0rem;
+}
+.qg .time dd:first-child{
+	border-left:none;
+	border-radius:0.2rem;
+}
+.tit{
+	height: 3.0rem;
+	background-image: url(../img/tit-l.png);
+	background-size: 10.175rem 0.2rem;
+	background-repeat: no-repeat;
+	background-position:3.875rem;
+}
+.tit h1{
+	font-size:1.0rem;
+	color:#d7b359;
+	letter-spacing:0rem;
+	text-align:center;
+	line-height: 3rem;
+}
+</style>
+<body>
+    <div class="qg">
+    		<div class="tit">
+    			<h1>一元抢购</h1>
+    		</div>
+    		<div class="cont">
+    			<ul class="clearfix">
+	    			<li>
+	    				<img src="img/qg-1.jpg" alt="">
+	    				<p>[重睑术](切开或埋线)为你打
+	造灵动双眸拥...</p>
+						<dl class="time">
+							<dd>01:</dd>
+							<dd>01:</dd>
+							<dd>01</dd>
+						</dl>
+	    			</li>
+	    			<li>
+	    				<img src="img/qg-1.jpg" alt="">
+	    				<p>[重睑术](切开或埋线)为你打
+	造灵动双眸拥...</p>
+						<dl class="time">
+							<dd>01:</dd>
+							<dd>01:</dd>
+							<dd>01</dd>
+						</dl>
+	    			</li>
+	    			<li>
+	    				<img src="img/qg-1.jpg" alt="">
+	    				<p>[重睑术](切开或埋线)为你打
+	造灵动双眸拥...</p>
+						<dl class="time">
+							<dd>01:</dd>
+							<dd>01:</dd>
+							<dd>01</dd>
+						</dl>
+	    			</li>
+	    		</ul>
+    		</div>
+    	</div>
+</body>
+</html>
