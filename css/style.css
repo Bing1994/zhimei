@@ -1,4 +1,7 @@
 /*头部*/
+body{
+	font-family: ''
+}
 header{
 	width:18.75rem;
 	height: 3.2rem;
@@ -37,11 +40,10 @@ section{
 	height: 13.175rem;
 	background: #fff;
 	border-radius: 0.2rem;
+	overflow: hidden;
 }
 .qg .cont{
-	width:17.95rem; 
 	padding:0rem 0.5rem;
-	overflow: hidden;
 }
 .qg ul{
     width:100%;
@@ -116,7 +118,6 @@ section{
 	border-radius: 0.2rem;
 }
 .lx .cont{
-	width:17.95rem; 
 	padding:0rem 0.5rem;
 	overflow: hidden;
 }
@@ -172,6 +173,7 @@ footer{
 	background-size: 18.75rem 3.225rem;
 	position:fixed;
 	bottom: -0.1rem;
+	padding:0 1.5rem;
 }
 footer ul{
 	position:fixed;
@@ -179,17 +181,29 @@ footer ul{
 	margin-bottom: 0.2rem;
 }
 footer li{
-	width: 1.5rem ;
+	width: 1.5rem;
 	float: left;
 	margin: 0 auto;
-	padding: 0 1.125rem;
 }
+footer li:nth-child(1){
+	margin-right: 2.025rem;
+}
+footer li:nth-child(2){
+	margin-right: 2.1rem;
+}
+
 footer li:nth-child(3) p{
-	margin-top:  0.6rem;
+	margin-top: 0.925rem;
 	font-size: 0.6rem;
 }
+footer li:nth-child(3){
+	margin-right: 2.475rem;
+}
+footer li:nth-child(4){
+	margin-right: 2.1rem;
+}
 footer li img{
-	width: 0.875rem;
+	width: 1.05rem;
 	margin: 0 auto;
 	display: block;
 }
